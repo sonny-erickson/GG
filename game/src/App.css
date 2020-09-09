@@ -9,7 +9,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 5s linear;
   }
 }
 
@@ -23,10 +23,22 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
 .App-link {
   color: #61dafb;
 }
+.navbar-brand{
+  width: 70px;
+  height: auto;
+}
+.nav-link{
+  color: white;
+  font-size: 20px;
+  margin-left: 50px;
+}
+.nav-link:hover{
+  color: red;
+}
+
 
 @keyframes App-logo-spin {
   from {
